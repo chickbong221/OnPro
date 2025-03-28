@@ -5,11 +5,17 @@ Official implementation of ICCV 2023 paper "[Online Prototype Learning for Onlin
 
 ## Usage
 ### Requirements
-* python==3.8
-* pytorch==1.9.0
+* python==3.10
+* pytorch
 ```
-pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
-pip install -r requirements.txt
+pip3 install torch torchvision torchaudio
+pip3 install -r requirements.txt
+```
+
+### Activate venv
+```
+cd /root/projects/OnPro
+source /root/projects/OnPro/.env/bin/activate
 ```
 
 ### Training
